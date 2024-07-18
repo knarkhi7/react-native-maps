@@ -21,5 +21,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'React-Core'
   s.dependency 'GoogleMaps', '7.4.0'
-  s.dependency 'Google-Maps-iOS-Utils', '4.2.2'
+  s.dependency 'Google-Maps-iOS-Utils', :git => 'https://github.com/Simon-TechForm/google-maps-ios-utils.git', :branch => 'feat/support-apple-silicon'
+
+
 end
